@@ -75,7 +75,6 @@ main(int argc, char *argv[])
   		}
   		fclose(read_from_a1);
       fclose(write_to_a2);
-      kill(getppid(),SIGTERM);
   		exit(EXIT_SUCCESS);
   	}
   }
